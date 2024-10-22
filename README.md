@@ -1,5 +1,6 @@
 ### Статус сборки
 
+[![Build status](https://ci.appveyor.com/api/projects/status/1mva3dlq0yvitd4v?svg=true)](https://ci.appveyor.com/project/melnikonayana/react-1-2-events-state)
 
 ### Ссылка на GitHub Pages
 
