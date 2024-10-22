@@ -2,6 +2,7 @@
   "name": "react-1.2.events-state",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://melnikonayana.github.io/react-1.2.events-state/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
@@ -34,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "prop-types": "^15.8.1"
   }
 }

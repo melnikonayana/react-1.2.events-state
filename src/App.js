@@ -1,24 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Portfolio from './filter/Portfolio';
+import { proects, filters } from './filter/data';
+import Store from './layouts/Store';
+import products from './layouts/data/products';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div>
+        <Portfolio proects={proects} filters={filters}/>
+        <Store products={products}/>
+      </div>
   );
 }
 
