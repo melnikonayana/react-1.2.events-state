@@ -4,7 +4,7 @@
 
 ### Ссылка на GitHub Pages
 
-
+https://melnikonayana.github.io/react-1.2.events-state/
 
 # Getting Started with Create React App
 
